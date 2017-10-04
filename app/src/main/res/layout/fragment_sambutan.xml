@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.kediri.humas.sambutan.Sambutan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/terkini2"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:paddingTop="20dp"
+                android:text="Terkini" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/und"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:paddingTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="Undangan" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/sambesar"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingTop="20dp"
+                android:text="Sambutan Besar" />
+            <Button
+                android:id="@+id/imageButton1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/samkecil"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="Sambutan Kecil" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/paparan"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="20dp"
+                android:text="Paparan" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/naskah"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="Referensi" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
